@@ -1,0 +1,32 @@
+.task_1{
+    width: 100%;
+    padding: 50px 0;
+    background-color: rgb(231, 235, 235);
+}
+.container_task1{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container__title, .container_task1__text{
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.container_task1__text::before{
+    content: 'Begining:';
+    display: inline-block;
+    color: #df5e5e;
+}
+.container_task1__text::after{
+    content: ':Ending';
+    display: inline-block;
+    color: #4ee37d;
+}
+.container__title::before{
+    content: 'Task 1';
+    display: block;
+    text-align: center;
+    color: #4444e3;
+    position: relative;
+    top: -25px;
+}
