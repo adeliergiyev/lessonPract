@@ -46,18 +46,26 @@
     padding: 40px;
     position: relative;
 }
-.sque_top{
+.sque_top, .sque_bottom{
     width: 100px;
     height: 100px;
     background-color: #fff;
 }
 .sque_bottom{
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
     position: absolute;
     bottom: 40px;
     right: 40px;
+}
+
+.sque::after{
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #df5e5e;
+    position: absolute;
+    top: 200px;
+    left: 200px;
 }
 .task_2::before{
     content: 'Task 2';
