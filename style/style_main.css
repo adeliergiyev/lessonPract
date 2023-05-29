@@ -16,11 +16,13 @@
     content: 'Begining:';
     display: inline-block;
     color: #df5e5e;
+    margin-right: 10px;
 }
 .container_task1__text::after{
     content: ':Ending';
     display: inline-block;
     color: #4ee37d;
+    margin-left: 10px;
 }
 .container__title::before{
     content: 'Task 1';
