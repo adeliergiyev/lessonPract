@@ -77,3 +77,125 @@
     font-weight: 600;
     font-size: 1.4em;
 }
+
+.task_3{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #fff
+}
+.task_3__container{
+    max-width: 900px;
+    width: 100%;
+    height: 450px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 50px;
+    position: relative;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.task_3__wrap{
+    width: 200px;
+    height: 200px;
+    border: 10px solid #FFFFFF;
+    position: absolute;
+    top: 125px;
+    left: 20px;
+    border-radius: 100px;
+    z-index: 10;
+}
+.task_3__wrap_background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #FFE7B6 6.17%, #FFC6AD 94.25%);
+}
+.task_3__img{
+    width: 100%;
+    /* height: 100%; */
+    border-radius: 100px;
+    position: absolute;
+    top: 26px;
+}
+.task_3__cover{
+    background: linear-gradient(360deg, #FFF9DE 0.57%, #FFD6CF 79.67%);
+    width: 100%;
+    height: 50%;
+    position: relative;
+    border-radius: 50px 50px 0 0;
+}
+.task_3__decorationline{
+    background: rgba(255, 255, 255, 0.45);
+    border-radius: 40px;
+    width: 200px;
+    height: 7px;
+    position: absolute;
+    top: 30%;
+    left: 38.9%;
+}
+.task_3__decorationline:nth-child(2){
+    background: rgba(255, 255, 255, 0.65);
+    width: 250px;
+    top: 37%;
+    left: 36.1%;
+}
+.task_3__decorationline:nth-child(3){
+    background: rgba(255, 255, 255, 0.75);
+    width: 200px;
+    top: 50%;
+    left: 38.9%;
+}
+.task_3__decorationline:nth-child(4){
+    background: rgba(255, 255, 255, 0.65);
+    width: 250px;
+    top: 57%;
+    left: 36.1%;
+}
+.task_3__decorationline:nth-child(5){
+    background: rgba(255, 255, 255, 0.55);
+    width: 300px;
+    top: 64%;
+    left: 33.3%;
+}
+.task_3__undercover{
+    border-radius: 0 0 50px 50px; 
+    height: 50%;
+    position: relative;
+}
+.task_3__undercover_info{
+    position: absolute;
+    top: 105px;
+    left: 30px;
+}
+.task_3__fullname{
+    font-weight: 400;
+    font-size: 30px;
+    color: #414141;
+}
+.task_3__sex{
+    position: absolute;
+    font-size: 15px;
+    color: #414141;
+    top: 5px;
+    left: 140px;
+}
+.task_3__cover::after{
+    content: "";
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 150px;
+    position: absolute;
+    top: -40px;
+    right: -145px;
+}
+.task_3__job{
+    font-size: 20px;
+    color: #414141;
+}
+.task_3__location{
+    font-size: 20px;
+    color:#979797;
+    line-height: 25px;
+}
