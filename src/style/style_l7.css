@@ -1,0 +1,114 @@
+.footer{
+    background: #D3D4ED;
+    max-width: 1440px;
+    min-height: 441px;
+    margin: 0 auto;
+    padding: 100px 230.39px 24px;
+    position: relative;
+    z-index: 0;
+}
+.footer__container{
+    max-width: 979px;
+    min-height: 317px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.footer__container::before{
+    content: "";
+    display: block;
+    border-bottom: 1px solid #404756;
+    position: absolute;
+    top: 85px;
+    left: 0;
+    width: 100%;
+}
+.footer__container::after{
+    content: "";
+    display: block;
+    border-bottom: 1px solid #404756;
+    position: absolute;
+    width: 100%;
+    bottom: 37px;
+    left: 0;
+}
+.footer__title{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 58px;
+    z-index: 2;
+}
+.footer__menus{
+    display: flex;
+    position: relative;
+}
+.footer::before{
+    content: url('/src/media/IMAGE.png');
+    display: block;
+    /* max-width: 173px;
+    max-height: 213px; */
+    position: absolute;
+    top: 0;
+    left: 74px;
+}
+.footer::after{
+    content: url('/src/media/IMAGE1.png');
+    display: block;
+    position: absolute;
+    top: 123px;
+    right: 315px;
+}
+.footer__title_menu{
+    font-family: 'Open Sans'; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 21px;
+}
+.footer__menu_item{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #404756;
+}
+.footer__menu_vertical .footer__menu_item{
+    min-width: 100px;
+}
+.footer__menu_wrap{
+    display: flex;
+    flex-direction: column;
+    row-gap: 33px;
+    min-width: 50%;
+}
+.footer__menu_gorizontal{
+    display: flex;
+    column-gap: 42px;
+}
+.footer__menu_vertical{
+    display: flex;
+    flex-direction: column;
+    row-gap: 11px;
+    z-index: 1;
+    min-width: 50%;
+    align-items: flex-end;
+    margin-top: 35px;
+}
+.footer__production{
+    display: flex;
+    column-gap: 78px;
+}
+.footer__production_item{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #404756;
+}
