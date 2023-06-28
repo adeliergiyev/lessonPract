@@ -3,7 +3,7 @@
     background-position: center bottom;
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 159px 0;
+    padding: 159px 0 170px 0;
     background-color: #050827;
 }
 .banner__container{
@@ -13,34 +13,42 @@
     text-align: center;
 }
 .banner__subtitle_top{
-    color: #FFF;
     font-size: 12px;
     font-family: Karla;
     font-weight: 400;
     line-height: 18px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .banner___subtitle_bottom{
-    color: #FFF;
     font-size: 17px;
     font-family: Karla;
     font-weight: 400;
     line-height: 30px;
+    margin-bottom: 38px;
 }
 .banner__title{
-    color: #FFF;
     font-size: 47px;
     font-family: Karla;
     line-height: 60px;
     font-weight: 400;
+    margin-bottom: 10px;
 }
 .banner__btn{
-    color: #1D1F2E;
     font-size: 12px;
     font-family: Karla;
     font-weight: 700;
-    line-height: 18px;
+    line-height: 19px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    max-width: 231px;
+    width: 100%;
+    padding: 6px 0;
+    color: #1D1F2E;
+    opacity: .8;
+    cursor: pointer;
+}
+.banner__btn:hover{
+    opacity: 1;
 }
