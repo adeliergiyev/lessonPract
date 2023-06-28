@@ -1,0 +1,46 @@
+.banner{
+    background-image: url(../media/background_task7.jpg);
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 159px 0;
+    background-color: #050827;
+}
+.banner__container{
+    margin: 0 auto;
+    max-width: 970px;
+    padding: 0 15px;
+    text-align: center;
+}
+.banner__subtitle_top{
+    color: #FFF;
+    font-size: 12px;
+    font-family: Karla;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.banner___subtitle_bottom{
+    color: #FFF;
+    font-size: 17px;
+    font-family: Karla;
+    font-weight: 400;
+    line-height: 30px;
+}
+.banner__title{
+    color: #FFF;
+    font-size: 47px;
+    font-family: Karla;
+    line-height: 60px;
+    font-weight: 400;
+}
+.banner__btn{
+    color: #1D1F2E;
+    font-size: 12px;
+    font-family: Karla;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
