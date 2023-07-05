@@ -1,0 +1,74 @@
+.subscribe{
+    padding: 100px 100px;
+}
+.subscribe__container{
+    max-width: 828px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 33px 34px;
+    background-color: #E9E9E9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscribe__title{
+    font-size: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 9px;
+}
+.subscribe__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subscribe__subtitle{
+    font-size: 17px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 496px;
+    margin-bottom: 26px;
+}
+.subscribe__form_topfields{
+    display: flex;
+    justify-content: space-between;
+    min-width: 366px;
+    margin-bottom: 18px;
+}
+.subscribe__form_bottomfields{
+    display: flex;
+    flex-direction: column;
+    min-width: 366px;
+    row-gap: 16px;
+    align-items: center;
+}
+.subscribe__field{
+    width: 153px;
+    height: 39px;
+    padding: 12px 8px 11px 8px;
+    color: #A0A0A0;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    border: 1px solid #000;
+}
+.subscribe__form_bottomfields > .subscribe__field{
+    width: 366px;
+}
+.subscribe__btn{
+    width: 115px;
+    height: 33px;
+    border-radius: 100px;
+    border: 1px solid #000;
+    background: #000;
+    color: #FFF;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+}
