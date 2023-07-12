@@ -1,7 +1,7 @@
-.subscribe{
+.subscribe, .checkbox{
     padding: 100px 100px;
 }
-.subscribe__container{
+.subscribe__container,.checkbox__container{
     max-width: 828px;
     margin: 0 auto;
     text-align: center;
@@ -77,4 +77,62 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
+}
+
+/* CSS of checkbox section  */
+.checkbox__container{
+    background-color: #adf1d6;
+}
+.checkbox__form_box{
+    display: flex;
+    flex-direction: row;
+    /* min-width: 150px; */
+    width: 60%;
+}
+.checkbox__input{
+    display: none;
+}
+.checkbox__lable{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    padding: 10px;
+}
+.checkbox__block{
+    width: 40px;
+    height: 40px;
+    border-radius: 6.643px;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkbox__picture{
+    opacity: 0;
+    border: 0;
+}
+.checkbox__input:checked + .checkbox__lable .checkbox__picture{
+    opacity: 1;
+} 
+.checkbox__input:checked + .checkbox__lable .checkbox__block{
+    border: 2px solid #d63d3d;
+}
+
+/* Form Radio  */
+.checkbox_form_radio{
+    width: 60%;
+}
+.checkbox__block_radio{
+    width: 31px;
+    height: 31px;
+    flex-shrink: 0;
+    border-radius: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000000;
+}
+.checkbox__input:checked + .checkbox__lable .checkbox__block_radio{
+    border: 2px solid #976464;
 }
