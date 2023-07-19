@@ -160,11 +160,8 @@
     background-color: #ed0509;
     color: #fff;
     text-align: center;
-    line-height: 200px;
+    line-height: 420px;
 }
-
-/*MEDIA REQUESTS*/
-
 @media (max-width: 1024px) {
     .wrap__small-blocks{
         flex-wrap: nowrap;
