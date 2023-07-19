@@ -1,0 +1,39 @@
+.adaptive{
+    display: flex;
+    justify-content: center;
+    max-width: 980px;
+    margin: 0 auto;
+}
+.adaptive__wrap--cube, .adaptive__wrap--celinder{
+    /* min-height: 400px; */
+    min-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.adaptive__image{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 767px) {
+    .adaptive{
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .adaptive__wrap--cube{
+        min-width: 150px;
+        min-height: 150px;
+    }
+    .adaptive__wrap--celinder{
+        min-width: 150px;
+        min-height: 150px;
+    }
+    .adaptive__image{
+        transform:rotate(45deg);
+        transition: 3s;
+        border-radius: 300px;
+        background-color: #24d780;
+    }
+}
