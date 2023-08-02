@@ -16,11 +16,19 @@
     grid-row: span 2;
 }
 .creatives__item:nth-child(6) {
-    background-image:  url('/src/media/6th_2_item.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.creatives__wrap {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    max-width: 232px;
+    flex-wrap: wrap;
 }
 .creatives__item:nth-child(6)::before {
     content: "";
@@ -38,11 +46,12 @@
     text-transform: uppercase;
     color: #fff;
     margin-bottom: 23px;
+    font-size: 1.47vw;
 }
 .creatives__icon {
     margin-bottom: 57px;
 }
-.creatives__icon, .creatives__title, .creatives__text {
-    z-index: 3;
+.creatives__text {
     color: #fff;
-}
+    font-size: 1.1vw;
+} 
